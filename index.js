@@ -1,7 +1,22 @@
-console.log('1' == 1); //true
-console.log(1 == true); //true
-console.log("false" == false); // "false" is not false
-console.log("false" == true); // "false" is not true either
+console.log('1' === 1); //false
+console.log(1 === true); //false
+console.log("true" === true); //false
 
-if("false")
-   console.log("Hello false!") //but "false" is true enough here
+let grade = 67;
+
+if( grade < 50){
+   console.log('Failed');
+}else{
+   console.log('Passed');
+}
+
+let num =0;
+
+while(num < 10){
+  console.log(num);
+  num++;
+}
+
+for(let i=0; i <10; i ++){
+  console.log(i);
+}
